@@ -1,0 +1,11 @@
+.taller {
+    @extend %taller-general;
+
+    img {
+        @extend %taller-img;
+    }
+
+    p {
+        @extend %taller-p;
+    }
+}

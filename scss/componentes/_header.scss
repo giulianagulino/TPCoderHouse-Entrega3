@@ -1,0 +1,30 @@
+.navbar-mio {
+    border-bottom: $borde-negro;
+}
+
+.marca {
+    a {
+        text-decoration: none;
+    }
+
+    h2 {
+        font-family: $body-font;
+        font-size: map-get($FONT-SIZE, 'xlarge');
+        color: $color-p;
+        margin: 0px 0px 0px 20px;
+    }
+}
+
+.links-mio {
+    li {
+        a {
+            font-family: $body-font;
+            font-size: map-get($FONT-SIZE, 'large');
+            color: $color-p;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

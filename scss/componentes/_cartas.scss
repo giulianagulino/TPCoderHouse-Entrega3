@@ -1,0 +1,71 @@
+.textodelacarta {
+    display: flex;
+    flex-direction: column;
+
+    h5 {
+        color: $color-s;
+        text-align: center;
+        background-color: $color-p;
+        opacity: 50%;
+        border-radius: map-get($RADIODELBORDE , "3");
+        margin-top: auto;
+    }
+
+    p {
+        color: $color-s;
+        background-color: $color-p;
+        opacity: 50%;
+        border-radius: map-get($RADIODELBORDE , "3");
+        font-size: map-get($FONT-SIZE, 'regular');
+    }
+
+}
+
+.carta {
+    img {
+        border: $borde-negro;
+        display: flex;
+        flex-direction: row;
+    }
+
+    a:hover {
+        border: 6px $color-s solid;
+
+    }
+
+}
+
+//MEDIA QUERIES 
+
+@media (max-width:$media-breakpoint-medium) {
+    .textodelacarta {
+        display: none;
+    }
+}
+
+@media (max-width:$media-breakpoint-large) {
+    .espaciocarta {
+        width: 70%;
+    }
+}
+
+@media (max-width:$media-breakpoint-medium) {
+    .textodelacarta {
+        display: none;
+    }
+}
+
+@media (max-width:$media-breakpoint-large) {
+
+    .textodelacarta {
+        h5 {
+
+
+            p {
+                width: 80%;
+                text-align: center;
+
+            }
+        }
+    }
+}

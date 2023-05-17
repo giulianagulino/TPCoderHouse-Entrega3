@@ -1,0 +1,7 @@
+.boton-form {
+    font-size: map-get($FONT-SIZE, "medium");
+    background-color: $color-s;
+    border-radius: map-get($RADIODELBORDE , "3");
+    box-shadow: 0px 0px 1px 1px;
+    width: 65px;
+}

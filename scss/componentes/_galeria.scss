@@ -1,0 +1,20 @@
+.galeria {
+    div {
+        @extend %centrado-horizontal;
+    }
+
+    img {
+        @extend %fotos-clases-img;
+        border: $borde-negro
+    }
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width:$media-breakpoint-large) {
+    .desaparece-responsive {
+        img {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.tabla {
+    border: $color-p;
+    max-width: 550px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    tr {
+        &:hover {
+            background-color: rgba(231, 203, 199, 0.5);
+        }
+    }
+}
