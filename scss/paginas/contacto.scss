@@ -1,0 +1,31 @@
+.info-fila {
+    margin: 10px;
+}
+
+
+.campo-a-llenar {
+    @extend %centrado-horizontal;
+    gap: 10px;
+
+    input {
+        height: 25px;
+        width: 200px;
+        border-radius: map-get($RADIODELBORDE , "1");
+    }
+
+    .input-msj {
+        height: 250px;
+        width: 500px;
+        border-radius: map-get($RADIODELBORDE , "1");
+    }
+}
+
+.suscripcion {
+    @extend %centrado-horizontal;
+    gap: 10px;
+    margin: 10px;
+}
+
+.contacto-iconos {
+    @extend %centrado-vertical;
+}

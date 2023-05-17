@@ -1,0 +1,58 @@
+//MAIN CLASES 
+
+.clases-index {
+    @extend %centrado-horizontal;
+    border-bottom: $borde-negro;
+}
+
+
+.minitexto-clases {
+    @extend %centrado-vertical;
+
+    p {
+        padding-left: 30px;
+    }
+
+    @media (max-width:$media-breakpoint-large) {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.foto-clasesindex {
+    img {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        border-radius: map-get($RADIODELBORDE , "1");
+        border: $borde-negro;
+
+        &:hover {
+            border: 6px $color-s solid;
+        }
+    }
+}
+
+//MEDIA QUERIES IMAGEN CLASES
+
+@media (max-width: $media-breakpoint-medium) {
+    .img-responsiveindex {
+        width: 85%;
+    }
+}
+
+@media (min-width:$media-breakpoint-medium) {
+    .img-responsiveindex {
+        width: 75%;
+    }
+}
+
+//MEDIA QUERIES TALLERES
+
+@media (max-width:$media-breakpoint-medium) {
+    .talleres-textoindex {
+        display: none;
+    }
+}

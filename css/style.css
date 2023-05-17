@@ -1,0 +1,350 @@
+.taller img {
+  border-radius: 20px;
+  border: 1px black solid;
+  display: block;
+  margin: 0 auto;
+}
+
+.taller p {
+  width: 350px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.taller {
+  text-align: center;
+  color: black;
+}
+
+.mapa, .galeria div, .textofinal-footer, .redes, .suscripcion, .campo-a-llenar, .video-biografia, .tipo-modalidad, .clases-index {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contacto-iconos, .texto-biografia, .minitexto-clases {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.galeria img {
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+  font-size: 15px;
+  color: white;
+  background-image: url(../Imagenes/Fondo.jpeg);
+  background-position: center top;
+  background-size: cover;
+}
+
+h2 {
+  color: black;
+  margin: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3,
+h4,
+h5,
+p,
+span {
+  color: black;
+  font-weight: bold;
+}
+
+.tabla-encabezado {
+  background-color: rgb(251, 223, 218);
+}
+
+.clases-index {
+  border-bottom: 1px black solid;
+}
+
+.minitexto-clases p {
+  padding-left: 30px;
+}
+@media (max-width: 991px) {
+  .minitexto-clases {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.foto-clasesindex img {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  border: 1px black solid;
+}
+.foto-clasesindex img:hover {
+  border: 6px white solid;
+}
+
+@media (max-width: 481px) {
+  .img-responsiveindex {
+    width: 85%;
+  }
+}
+@media (min-width: 481px) {
+  .img-responsiveindex {
+    width: 75%;
+  }
+}
+@media (max-width: 481px) {
+  .talleres-textoindex {
+    display: none;
+  }
+}
+.texto-clasesparticulares {
+  text-align: center;
+  padding: 0px 30px;
+}
+@media (max-width: 991px) {
+  .texto-clasesparticulares {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.tipo-modalidad {
+  align-items: center;
+}
+
+@media (max-width: 991px) {
+  .tipo-modalidad h4 {
+    font-size: small;
+  }
+}
+.texto-italica {
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.imagen-biografia img {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 1px black solid;
+}
+
+@media (max-width: 991px) {
+  .imagen-biografia img {
+    height: 400px;
+    width: 280px;
+  }
+}
+.texto-biografia p {
+  font-size: 18px;
+  margin-right: 20px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+  .texto-biografia p {
+    font-size: 15px;
+  }
+}
+.video-biografia iframe {
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+.video-biografia iframe:hover {
+  border: 3px white solid;
+}
+
+@media (max-width: 991px) {
+  .video-biografia iframe {
+    height: 400px;
+    width: 380px;
+  }
+}
+.info-fila {
+  margin: 10px;
+}
+
+.campo-a-llenar {
+  gap: 10px;
+}
+.campo-a-llenar input {
+  height: 25px;
+  width: 200px;
+  border-radius: 10px;
+}
+.campo-a-llenar .input-msj {
+  height: 250px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.suscripcion {
+  gap: 10px;
+  margin: 10px;
+}
+
+.navbar-mio {
+  border-bottom: 1px black solid;
+}
+
+.marca a {
+  text-decoration: none;
+}
+.marca h2 {
+  font-family: "Dosis", sans-serif;
+  font-size: 30px;
+  color: black;
+  margin: 0px 0px 0px 20px;
+}
+
+.links-mio li a {
+  font-family: "Dosis", sans-serif;
+  font-size: 18px;
+  color: black;
+}
+.links-mio li a:hover {
+  text-decoration: underline;
+}
+
+.redes {
+  margin-top: 30px;
+  border-top: 1px solid black;
+  align-items: center;
+  height: 100px;
+}
+
+.redes-cuentas a {
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+.redes-cuentas a:hover {
+  font-size: 30px;
+}
+
+.textofinal-footer p {
+  font-size: 8px;
+}
+
+.tabla {
+  border: black;
+  max-width: 550px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.tabla tr:hover {
+  background-color: rgba(231, 203, 199, 0.5);
+}
+
+.galeria img {
+  border: 1px black solid;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 991px) {
+  .desaparece-responsive img {
+    display: none;
+  }
+}
+.carrusel-fotos img {
+  min-height: 200px;
+}
+
+.texto-carrusel {
+  color: white;
+}
+
+.textodelacarta {
+  display: flex;
+  flex-direction: column;
+}
+.textodelacarta h5 {
+  color: white;
+  text-align: center;
+  background-color: black;
+  opacity: 50%;
+  border-radius: 20px;
+  margin-top: auto;
+}
+.textodelacarta p {
+  color: white;
+  background-color: black;
+  opacity: 50%;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.carta img {
+  border: 1px black solid;
+  display: flex;
+  flex-direction: row;
+}
+.carta a:hover {
+  border: 6px white solid;
+}
+
+@media (max-width: 481px) {
+  .textodelacarta {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .espaciocarta {
+    width: 70%;
+  }
+}
+@media (max-width: 481px) {
+  .textodelacarta {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .textodelacarta h5 p {
+    width: 80%;
+    text-align: center;
+  }
+}
+.mapa {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.mapa iframe {
+  border-radius: 20px;
+}
+
+@media (max-width: 991px) {
+  .mapa iframe {
+    width: 100%;
+    justify-content: center;
+    margin-left: 40px;
+  }
+}
+.boton-form {
+  font-size: 15px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 1px 1px;
+  width: 65px;
+}
+
+/*# sourceMappingURL=style.css.map */
