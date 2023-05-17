@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: $body-font;
+    font-size: map-get($FONT-SIZE, "medium");
+    color: $color-s;
+    background-image: url(../Imagenes/Fondo.jpeg);
+    background-position: center top;
+    background-size: cover;
+}
+
+h2 {
+    color: $color-p;
+    margin: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3,
+h4,
+h5,
+p,
+span {
+    color: $color-p;
+    font-weight: bold;
+}

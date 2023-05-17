@@ -1,0 +1,39 @@
+%taller-img {
+    border-radius: map-get($RADIODELBORDE , "3");
+    border: $borde-negro;
+    display: block;
+    margin: 0 auto;
+}
+
+%taller-p {
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+%taller-general {
+    text-align: center;
+    color: $color-p;
+}
+
+%centrado-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+%centrado-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+%fotos-clases-img {
+    border-radius: map-get($RADIODELBORDE , "3");
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
