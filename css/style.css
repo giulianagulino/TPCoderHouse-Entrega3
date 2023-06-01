@@ -45,7 +45,7 @@
 
 body {
   font-family: "Dosis", sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   color: white;
   background-image: url(../Imagenes/Fondo.jpeg);
   background-position: center top;
@@ -155,7 +155,7 @@ span {
   }
 }
 .texto-biografia p {
-  font-size: 18px;
+  font-size: 19px;
   margin-right: 20px;
   margin-left: 25px;
   margin-bottom: 20px;
@@ -163,7 +163,7 @@ span {
 
 @media (max-width: 991px) {
   .texto-biografia p {
-    font-size: 15px;
+    font-size: 17px;
   }
 }
 .video-biografia iframe {
@@ -219,7 +219,7 @@ span {
 
 .links-mio li a {
   font-family: "Dosis", sans-serif;
-  font-size: 18px;
+  font-size: 19px;
   color: black;
 }
 .links-mio li a:hover {
@@ -243,7 +243,7 @@ span {
 }
 
 .textofinal-footer p {
-  font-size: 8px;
+  font-size: 9px;
 }
 
 .tabla {
@@ -291,7 +291,7 @@ span {
   background-color: black;
   opacity: 50%;
   border-radius: 20px;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .carta img {
@@ -340,7 +340,7 @@ span {
   }
 }
 .boton-form {
-  font-size: 15px;
+  font-size: 17px;
   background-color: white;
   border-radius: 20px;
   box-shadow: 0px 0px 1px 1px;
